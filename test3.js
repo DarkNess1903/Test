@@ -8,10 +8,10 @@ const isMoney1000 = members.find((member) => {
     return member.money > 1000;
 });
 
-const member = members.map((Element) => {return Element});
+const member = members.map((element) => {return element.name});
 
 function isNameMember(){
     console.log(isMoney1000.name);
-    console.log(members.name);
+    console.log(member);
 }
 isNameMember();
